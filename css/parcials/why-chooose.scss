@@ -1,0 +1,90 @@
+#why-choose {
+    background-color: #F5F5F5;
+    padding: 80px 0;
+
+    .why-choose-mein {
+        justify-content: space-between;
+
+        .why-choose-detail {
+            h3 {
+                font-size: 22px;
+                color: $primary-color;
+                font-family: Roboto;
+                font-weight: 600;
+            }
+
+            h2 {
+                font-size: 36px;
+                color: $black-color;
+                padding: 20px 0;
+                font-family: Raleway;
+                font-weight: 600;
+            }
+
+            p {
+                font-size: 16px;
+                color: $black-color;
+                max-width: 500px;
+                padding-bottom: 5px;
+                font-family: Roboto;
+                font-weight: 400;
+            }
+
+            .taxi-on-time {
+                background-color: $white-color;
+                margin-top: 40px;
+                padding: 25px 15px;
+                border-radius: 20px;
+                column-gap: 17px;
+
+                &:hover {
+                    // box-shadow: 0 4px 4px 0 #999;\
+                    box-shadow: 0 0 20px 0 #999;
+                    transition: all ease 1s;
+                }
+
+                .taxi-on-time-img {
+                    img {
+                        width: 100%;
+                    }
+                }
+
+                .taxi-on-time-detail {
+                    // padding-left: 15px;
+
+                    h4 {
+                        font-size: 22px;
+                        color: $black-color;
+                        font-family: Raleway;
+                        font-weight: 600;
+                    }
+
+                    p {
+                        font-size: 16px;
+                        color: #999;
+                        padding-top: 15px;
+                        max-width: 400px;
+                        font-family: Roboto;
+                        font-weight: 400;
+                        line-height: 24px;
+                    }
+                }
+            }
+        }
+
+        .why-choose-img {
+            // width: 50%;
+            overflow: hidden;
+            border-radius: 20px;
+            img {
+                width: 100%;
+                transition: all ease .5s;
+                &:hover {
+                    transform: scale(1.1);
+                }
+            }
+        }
+
+    }
+
+}

@@ -1,0 +1,32 @@
+.project-done {
+    padding: 100px 0;
+    background-color: #F5F5F5;
+
+    .project-count {
+        display: flex;
+        justify-content: space-between;
+
+        .counter-mein {
+            width: 25%;
+            text-align: center;
+
+            .counter-content {
+                display: inline-block;
+                h2 {
+                    font-size: $xx-large;
+                    color: $primary-color;
+                }
+            }
+
+            h5 {
+                color: $light-black;
+                font-size: 24px;
+                font-family: Roboto;
+                line-height: 30px;
+                font-weight: 500;
+                padding-top: 22px;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,33 @@
+#service{
+    padding: 110px 0;
+    .service-mein{
+        justify-content: space-between;
+        column-gap: 15px;
+        .service-box{
+            width: 33.33%;
+            .taxi-img{
+                width: auto;
+            }
+            h4{
+                font-size: 22px;
+                color: $primary-color;
+                font-family: Roboto;
+                font-weight: 600;
+                padding: 30px 0 10px;
+            }
+            h2{
+                padding-bottom:10px;
+                color: $black-color;
+                font-family: Raleway;
+                font-weight: 600;
+            }
+            p{
+                font-size: 16px;
+                color: $black-color;
+                max-width: 360px;
+                font-family: Roboto;
+                font-weight: 400;
+            }
+        }
+    }
+}

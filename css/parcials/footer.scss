@@ -1,0 +1,178 @@
+#footer {
+    .footer-top {
+        border-bottom: 1px solid $primary-color;
+        padding: 85px 0 55px;
+
+        .footer-mein {
+            justify-content: space-between;
+
+            .footer-logo {
+                width: 25%;
+                .footer-logo-img {
+                    padding-bottom: 33px;
+                }
+
+                p {
+                    font-size: $small;
+                    color: $light-black;
+                    font-family: Roboto;
+                    font-weight: 400;
+                    line-height: 24px;
+                    max-width: 243px;
+                }
+
+                ul {
+                    padding-top: 30px;
+                    column-gap: 15px;
+
+                    li {
+
+                        a {
+                            width: 40px;
+                            height: 40px;
+                            background-color: $black-color;
+                            border-radius: 50%;
+                            display: block;
+                            text-align: center;
+
+                            :hover {
+                                width: 40px;
+                                height: 40px;
+                                background-color: $black-color;
+                                border-radius: 50%;
+                                display: block;
+                                text-align: center;
+                                background-color: $primary-color;
+                            }
+
+                            i {
+                                padding-top: 10px;
+                                color: $white-color;
+                            }
+                        }
+                    }
+                }
+
+            }
+
+            .link {
+                width: 25%;
+                h2 {
+                    font-size: 20px;
+                    color: $black-color;
+                    padding-bottom: 33px;
+                    font-family: Roboto;
+                    font-size: 20px;
+                }
+
+                ul {
+                    li {
+                        padding-bottom: 10px;
+
+                        a {
+                            font-size: $small;
+                            color: $light-black;
+                            font-family: Roboto;
+                            // line-height: 28px;
+                            font-weight: 400;
+
+                            &:hover {
+                                color: $primary-color;
+                                transition: all ease .5s;
+                                padding-left: 5px;
+                            }
+                        }
+                    }
+                }
+
+            }
+
+            .information {
+                width: 25%;
+                h2 {
+                    font-size: $small;
+                    color: $black-color;
+                    padding-bottom: 33px;
+                    font-family: Roboto;
+                    font-size: 20px;
+                }
+
+                ul {
+                    li {
+                        padding-bottom: 10px;
+
+                        a {
+                            font-size: $small;
+                            color: $light-black;
+                            font-family: Roboto;
+                            // line-height: 28px;
+                            font-weight: 400;
+
+                            &:hover {
+                                color: $primary-color;
+                                transition: all ease .5s;
+                                padding-left: 5px;
+                            }
+                        }
+                    }
+                }
+
+            }
+
+            .contact-us {
+                h2 {
+                    font-size: 20px;
+                    color: $black-color;
+                    padding-bottom: 33px;
+                    font-family: Roboto;
+                    font-size: 20px;
+                }
+                .contact-us-mein {
+                    display: flex;
+                    align-items: center;
+                    padding-bottom: 20px;
+                    .contact-us-icon{
+                        color: $primary-color;
+                        .fa-map-marker{
+                            padding-bottom: 30px;
+                        }
+                    }
+                    .contact-us-content {
+                        a {
+                            font-size: $small;
+                            color: $light-black;
+                            padding-left: 5px;
+                            font-family: Roboto;
+                            line-height: 28px;
+                            font-weight: 400;
+                            &:hover {
+                                color: $primary-color;
+                                transition: all ease .5s;
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+
+    .footer-copyright {
+        text-align: center;
+        padding: 35px 0;
+
+        .copyright {
+            a {
+                font-size: $small;
+                color: $light-black;
+                font-weight: 400;
+                font-family: Roboto;
+
+                &:hover {
+                    color: $primary-color;
+                    transition: all ease .5s;
+                }
+            }
+        }
+    }
+}
